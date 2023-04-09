@@ -7,9 +7,9 @@ dist() {
   forks=$(git remote | grep fork- | awk '{print $1}' | sort | uniq)
   for fork in ${forks}; do
     branch=${fork/fork-/}
-    echo git checkout "${branch}"
-    echo git rebase main
-    echo git push --force-with-lease "${fork}" main
+    git checkout "${branch}"
+    git rebase main
+    git push --force-with-lease "${fork}" main
   done
 }
 
