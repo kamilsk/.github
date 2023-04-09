@@ -69,4 +69,4 @@ OctoLab community at GitHub.
   - [Awesome GitHub Issues & PRs Templates](https://github.com/devspace/awesome-github-templates).
   - [GitHub Issue and Pull Request Templates Generator](https://www.talater.com/open-source-templates/).
 
-<p align="right">made with ❤️ for everyone by OctoLab</p>
+<p align="right">made with ❤️ for everyone by <a href="https://www.octolab.org/">OctoLab</a></p>
