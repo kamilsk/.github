@@ -11,6 +11,7 @@ dist() {
     git rebase main
     git push --force-with-lease "${fork}" main
   done
+  git checkout main
 }
 
 "${@}"
